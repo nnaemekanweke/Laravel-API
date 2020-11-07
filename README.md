@@ -1,4 +1,3 @@
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## How to build a Laravel API
 
@@ -74,9 +73,27 @@ You can pass this in form-data of postman.
 
 - Delete a single record <br><b>localhost:8000/api/v1/person/1 </b> <br>
 <b> Method DELETE </b> <br>
+<br>
+
+## How to use (v2)
+
+- Fetch single data <br><b>localhost:8000/api/v1/person/1 </b> <br>
+<b> Method GET </b> <br>
+<b>Sample response</b>
+<code>
+<pre>
+   {
+    "data": {
+        "full_name": "Nnaemeka Nweke",
+        "phone": "1234567890",
+        "email": "nnaemeka@example.com",
+        "country": "Nigeria"
+       }
+   }
+</pre>
+</code>
 
 
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[OP.GG](https://op.gg)**
+- **[Follow on Twitter](https://twitter.com/codegenty)**
+- **[My Wesite](https://nnaemekanweke.com)**
 
