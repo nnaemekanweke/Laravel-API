@@ -77,7 +77,7 @@ You can pass this in form-data of postman.
 
 ## How to use (v2)
 
-- Fetch single data <br><b>localhost:8000/api/v1/person/1 </b> <br>
+- Fetch single data <br><b>localhost:8000/api/v2/person/1 </b> <br>
 <b> Method GET </b> <br>
 <b>Sample response</b>
 <code>
@@ -94,6 +94,6 @@ You can pass this in form-data of postman.
 </code>
 
 
-- **[Follow on Twitter](https://twitter.com/codegenty)**
-- **[My Wesite](https://nnaemekanweke.com)**
+- **[Follow me on Twitter](https://twitter.com/codegenty)**
+- **[My Website](https://nnaemekanweke.com)**
 
