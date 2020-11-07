@@ -29,6 +29,7 @@ This is a simple laravel API which includes API versioning (v1 and v2).
 - Fetch single data <br><b>localhost:8000/api/v1/person/5 </b>
 <b>Sample response </b>
 <code>
+<pre>
     {
     "data": {
         "id": 5,
@@ -42,6 +43,7 @@ This is a simple laravel API which includes API versioning (v1 and v2).
         }
     }
 
+</pre>
 </code>
 
 
