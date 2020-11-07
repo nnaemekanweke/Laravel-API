@@ -9,7 +9,7 @@
 
 ## How to build a Laravel API
 
-This is simple laravel API with including API versioning (v1 and V2). 
+This is a simple laravel API which includes API versioning (v1 and v2). 
 
 ## Getting started
 
@@ -25,7 +25,26 @@ This is simple laravel API with including API versioning (v1 and V2).
 
 ## How to use (v1)
 
-- Fetch index of all data in Person table with pagination <b>localhost:8000/api/v1/people </b>
+- Fetch index of all data in Person table with pagination <br><b>localhost:8000/api/v1/people </b>
+- Fetch single data <br><b>localhost:8000/api/v1/person/5 </b>
+<b>Sample response </b>
+<code>
+    <pre>
+    {
+    "data": {
+        "id": 5,
+        "first_name": "Lenna",
+        "last_name": "Jacobs",
+        "phone": "1-578-480-5526 x210",
+        "email": "sporer.prudence@example.net",
+        "country": "Cocos (Keeling) Islands",
+        "created_at": "2020-11-07T20:10:56.000000Z",
+        "updated_at": "2020-11-07T20:10:56.000000Z"
+    }
+}
+</pre>
+</code>
+
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
