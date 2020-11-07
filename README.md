@@ -16,11 +16,16 @@ This is simple laravel API with including API versioning (v1 and V2).
 <ol>
   <li>First, clone this repo</li>
   <li>CD into the directory</li>
-  <li>Run composer install</li>
-  <li>Run php artisan key:generate</li>
-  <li>Run table migrations php artisan migrate</li>
-  <li>See the database with some random data  php artisan db:seed</li>
+  <li>Run <b>composer install </b></li>
+  <li>Run <b>php artisan key:generate </b></li>
+  <li>Run table migrations <b>php artisan migrate </b></li>
+  <li>Seed the database with some random data <b> php artisan db:seed </b></li>
+  <li>Run <b>php artisan serve</b></li>
 </ol>
+
+## How to use (v1)
+
+- Fetch index of all data in Person table with pagination <b>localhost:8000/api/v1/people </b>
 
 Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
 
